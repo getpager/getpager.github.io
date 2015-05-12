@@ -242,12 +242,13 @@ body {
 
 .btn-landing {
   border-radius: 0;
-  color: #FFF;
+  color: rgb(248, 220, 179);
   margin-left: -4px;
   margin-top: 2px;
-  border: 1px solid #FFF;
+  border: 1px solid #fff;
   border-left: 0;  
-  background: rgba(59,89,152, 1);
+  /*background: rgba(59,89,152, 1);*/
+  background-color: #fff;
   outline: 0 !important;
   padding: 11px 12px;
   font-size: 13px;
@@ -260,8 +261,9 @@ body {
 }
 
 .btn-landing:hover, .btn-landing:focus, .btn-landing:active {
-  color: #fff;
-  background: rgba(59,89,152, 0.8);
+  color: rgb(248, 220, 179);
+  /*background: rgba(59,89,152, 0.8);*/
+  background-color: #fff;
 }
 
 .btn-update {
