@@ -401,3 +401,19 @@ edit-category-img {
   .btn-pager.btn-pager-success {
     background-color: #33cd5f;
     border-color: #28a54c; }
+
+.footer {
+  padding: 20px;
+}
+
+.social-media-icons {
+  margin-right: 10px;
+  color: #D7D7D7;
+}
+
+.social-media-icons:hover,
+.social-media-icons:focus,
+.social-media-icons:active {
+  color: #D7D7D7;
+  text-decoration: none;
+}
