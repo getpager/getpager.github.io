@@ -129,7 +129,7 @@ body {
 .section {
   position: relative;
   padding: 120px 30px;
-  overflow-y: hidden; }
+  overflow: hidden; }
   .section:nth-child(2n) {
     color: white;
     border-color: white;
