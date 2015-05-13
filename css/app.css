@@ -202,6 +202,8 @@ body {
   .section-creator .creator-title {
     display: inline-block;
     color: #333;
+    text-transform: uppercase;
+    letter-spacing: 3px;
     border: 1px solid #333;
     margin-bottom: 30px;
     padding: 15px; }
