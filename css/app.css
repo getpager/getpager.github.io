@@ -5,7 +5,8 @@
 * Colors
 */
 body {
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Open Sans', sans-serif;  
+}
 
 /*
 * Override bootstrap
@@ -125,11 +126,15 @@ body {
 .pager-landing-title {
   width: 100%;
   text-align: center;
-  color: white; }
+  color: white;   
+
+}
   .pager-landing-title h1 {
-    font-weight: 900;
+    font-weight: 700;
     font-size: 72px;    
-    letter-spacing: 3px; }
+    letter-spacing: 3px; 
+    /*font-family: 'Montserrat', sans-serif;*/
+  }
 
 
 .pager-landing-title .social {
@@ -256,28 +261,33 @@ body {
 
 .btn-landing {
   border-radius: 0;
-  color: rgb(248, 220, 179);
+  color: #fff ;
+  /*color: rgb(248, 220, 179);*/
   margin-left: -4px;
   margin-top: 2px;
   border: 1px solid #fff;
   border-left: 0;  
+  background: none;
   /*background: rgba(59,89,152, 1);*/
-  background-color: #fff;
+  /*background-color: #fff;*/
   outline: 0 !important;
   padding: 11px 12px;
   font-size: 13px;
   text-transform: uppercase;
   line-height: 21px;
-  -webkit-transition: background 0.2s ease-in;
-     -moz-transition: background 0.2s ease-in;
-       -o-transition: background 0.2s ease-in;
-          transition: background 0.2s ease-in;
+  width: 100px;
+  -webkit-transition: all 0.2s ease-in;
+     -moz-transition: all 0.2s ease-in;
+       -o-transition: all 0.2s ease-in;
+          transition: all 0.2s ease-in;
 }
 
 .btn-landing:hover, .btn-landing:focus, .btn-landing:active {
-  color: rgb(248, 220, 179);
+  /*color: rgb(248, 220, 179);*/
+  color: #fff;
+  background: rgba(255,255,255, 0.1);
   /*background: rgba(59,89,152, 0.8);*/
-  background-color: #fff;
+  /*background-color: #fff;*/
 }
 
 .btn-update {
