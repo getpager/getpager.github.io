@@ -111,9 +111,9 @@ body {
 .pager-landing {
   position: relative;
   height: 450px;
-  background-image: url('../images/landing.jpg');
+  background-image: url('../images/landing_small.jpg');
   background-size: cover;
-  background-position: 0 600px; 
+  /*background-position: 0 570px; */
 }
 
 .pager-landing-container {
@@ -232,9 +232,10 @@ body {
 .input-landing {
   position: relative;
   top: 4px;
-  width: 400px;
-  font-size: 17px;
-  padding: 10px;
+  width: 320px;
+  font-size: 14px;
+  padding: 11px 10px;
+  /*text-align: center;*/
   border: 1px solid #fff;
   background: none;
   outline: 0;
@@ -264,7 +265,7 @@ body {
   color: #fff ;
   /*color: rgb(248, 220, 179);*/
   margin-left: -4px;
-  margin-top: 2px;
+  margin-top: 4px;
   border: 1px solid #fff;
   border-left: 0;  
   background: none;
